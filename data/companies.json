@@ -1,0 +1,150 @@
+[
+  {
+    "id": "tesla",
+    "name": "Tesla",
+    "domain": "Sustainability",
+    "website": "https://www.tesla.com",
+    "description": "Electric vehicles and clean energy solutions",
+    "founded": "2003",
+    "stage": "Public"
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "domain": "Fintech",
+    "website": "https://www.stripe.com",
+    "description": "Payment processing platform for internet businesses",
+    "founded": "2010",
+    "stage": "Series H"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "domain": "SaaS",
+    "website": "https://www.notion.so",
+    "description": "All-in-one workspace for notes, docs, and collaboration",
+    "founded": "2016",
+    "stage": "Series C"
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "domain": "Artificial Intelligence",
+    "website": "https://www.openai.com",
+    "description": "AI research and deployment company",
+    "founded": "2015",
+    "stage": "Series C"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "domain": "SaaS",
+    "website": "https://www.figma.com",
+    "description": "Collaborative design and prototyping platform",
+    "founded": "2012",
+    "stage": "Acquired"
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "domain": "Developer Tools",
+    "website": "https://www.github.com",
+    "description": "Code hosting and collaboration platform",
+    "founded": "2008",
+    "stage": "Acquired"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "domain": "Artificial Intelligence",
+    "website": "https://www.anthropic.com",
+    "description": "AI safety and research company",
+    "founded": "2021",
+    "stage": "Series C"
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "domain": "E-commerce",
+    "website": "https://www.shopify.com",
+    "description": "E-commerce platform for online stores",
+    "founded": "2006",
+    "stage": "Public"
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare",
+    "domain": "Cybersecurity",
+    "website": "https://www.cloudflare.com",
+    "description": "Web infrastructure and security services",
+    "founded": "2009",
+    "stage": "Public"
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "domain": "Developer Tools",
+    "website": "https://www.vercel.com",
+    "description": "Frontend cloud platform for developers",
+    "founded": "2015",
+    "stage": "Series D"
+  },
+  {
+    "id": "linear",
+    "name": "Linear",
+    "domain": "SaaS",
+    "website": "https://www.linear.app",
+    "description": "Issue tracking and project management tool",
+    "founded": "2019",
+    "stage": "Series B"
+  },
+  {
+    "id": "spacex",
+    "name": "SpaceX",
+    "domain": "Aerospace",
+    "website": "https://www.spacex.com",
+    "description": "Spacecraft and satellite launch services",
+    "founded": "2002",
+    "stage": "Private"
+  },
+  {
+    "id": "airbnb",
+    "name": "Airbnb",
+    "domain": "Accommodation Marketplace",
+    "website": "https://airbnb.com",
+    "description": "Airbnb is a global online marketplace that connects travelers with unique holiday rentals and experiences worldwide.",
+    "founded": "Unknown",
+    "stage": "Unknown",
+    "addedAt": "2026-02-22T11:14:47.074Z"
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "domain": "SaaS, Graphic Design",
+    "website": "https://canva.com",
+    "description": "Canva is an online graphic design platform that simplifies content creation for everyone, from individuals to large teams.",
+    "founded": 2012,
+    "stage": "Unknown",
+    "addedAt": "2026-02-22T11:18:34.532Z"
+  },
+  {
+    "id": "instagram",
+    "name": "Instagram",
+    "domain": "Social Media",
+    "website": "https://instagram.com",
+    "description": "Instagram is a social media platform that allows users to share photos and videos and connect with a global community.",
+    "founded": "2010",
+    "stage": "Acquired",
+    "addedAt": "2026-02-22T11:19:57.105Z"
+  },
+  {
+    "id": "personal-portfolio",
+    "name": "Personal Portfolio",
+    "domain": "Professional Services",
+    "website": "https://aditishrimankar.com",
+    "description": "This website serves as an individual's online showcase for their professional skills, projects, and experience.",
+    "founded": "2015",
+    "stage": "Private",
+    "addedAt": "2026-02-22T11:21:15.889Z"
+  }
+]
