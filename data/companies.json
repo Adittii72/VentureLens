@@ -166,5 +166,15 @@
     "founded": "2009",
     "stage": "Private",
     "addedAt": "2026-02-22T13:19:34.575Z"
+  },
+  {
+    "id": "render",
+    "name": "Render",
+    "domain": "Cloud Infrastructure",
+    "website": "https://render.com",
+    "description": "Render provides intuitive cloud infrastructure to help builders deploy and scale any application or agent from first user to billions.",
+    "founded": "2015",
+    "stage": "Series D+",
+    "addedAt": "2026-02-22T13:26:24.207Z"
   }
 ]
