@@ -79,6 +79,14 @@ const Hero = () => {
       }
 
       const data = await response.json();
+      
+      // Save new company to localStorage for client-side persistence
+      if (!data.alreadyExists) {
+        const customCompanies = JSON.parse(localStorage.getItem('customCompanies') || '[]');
+        customCompanies.push(data.company);
+        localStorage.setItem('customCompanies', JSON.stringify(customCompanies));
+      }
+      
       setEnrichmentResult(data);
       setShowModal(true);
       setCompanyInput('');

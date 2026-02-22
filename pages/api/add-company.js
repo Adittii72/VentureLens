@@ -120,7 +120,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    // Read existing companies
+    // Read existing companies from the static file
     const filePath = path.join(process.cwd(), 'data', 'companies.json');
     const fileData = fs.readFileSync(filePath, 'utf8');
     const companies = JSON.parse(fileData);
@@ -158,7 +158,7 @@ export default async function handler(req, res) {
 
     const enrichedData = await enrichWithAI(scrapedData);
 
-    // Create new company entry
+    // Create new company entry (but don't save to file in production)
     const newCompany = {
       id: enrichedData.companyName.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, ''),
       name: enrichedData.companyName,
@@ -170,11 +170,17 @@ export default async function handler(req, res) {
       addedAt: new Date().toISOString()
     };
 
-    // Add to companies array
-    companies.push(newCompany);
-
-    // Write back to file
-    fs.writeFileSync(filePath, JSON.stringify(companies, null, 2));
+    // In production (Vercel), we can't write to files
+    // The client will handle saving to localStorage
+    // Only try to write in development
+    if (process.env.NODE_ENV === 'development') {
+      try {
+        companies.push(newCompany);
+        fs.writeFileSync(filePath, JSON.stringify(companies, null, 2));
+      } catch (writeError) {
+        console.log('Could not write to file (expected in production):', writeError.message);
+      }
+    }
 
     return res.status(200).json({
       alreadyExists: false,

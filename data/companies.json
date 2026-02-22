@@ -146,5 +146,15 @@
     "founded": "2015",
     "stage": "Private",
     "addedAt": "2026-02-22T11:21:15.889Z"
+  },
+  {
+    "id": "zoominfo",
+    "name": "ZoomInfo",
+    "domain": "SaaS",
+    "website": "https://dribble.com",
+    "description": "ZoomInfo provides a comprehensive go-to-market platform that delivers intelligence and engagement tools for sales, marketing, and recruiting professionals.",
+    "founded": "2007",
+    "stage": "Public",
+    "addedAt": "2026-02-22T13:12:56.771Z"
   }
 ]
