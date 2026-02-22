@@ -156,5 +156,15 @@
     "founded": "2007",
     "stage": "Public",
     "addedAt": "2026-02-22T13:12:56.771Z"
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "domain": "Fintech",
+    "website": "https://stripe.com",
+    "description": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models and manage money movement.",
+    "founded": "2009",
+    "stage": "Private",
+    "addedAt": "2026-02-22T13:19:34.575Z"
   }
 ]
